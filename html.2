@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Form Pemesanan Tiket Pesawat</title>
+</head>
+<body>
+
+    <h2> Form Pemesanan Tiket Pesawat</h2>
+
+    <form>
+        <h3> Data Diri</h3>
+
+        <label for="nama">Nama Lengkap:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+        
+        <label for="identitas">Nomot Identitas (KTP):</label><br>
+        <input type="text" id="identitas" name="identitas" required><br><br>
+
+        <label>Jenis Kelamin:</label><br>
+        <label type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki"></label>
+        <label for="laki-laki">Laki-laki:</label><br>
+        <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki"
+        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+        <label for="perempuan">Perempuan:</label><br><br>
+
+        <label for="email">Alamat Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telepon">Nomor Telepon:</label><br>
+        <input type="telepon" id="telepon" name="telepon" required><br><br>
+
+        <h3>Informasi Penerbangan</h3>
+
+        <label for="keberangkatan">Bandara Internasional</label><br>
+        <select id="keberangkatan" name="keberangkatan"></select><br>
+        <option value="">--- Pilih Bndara ---</option>
+        <option value="CGK">Jakarta(CGK</option>
+        <option value="SUB">Surabaya(SUB)</option>
+        </form><br><br>
+
+        <label for="tujuan">Bandara Tujuan</label><br>
+        <select id="tujuan" name="tujuan"></select>
+        <option value="">--- Pilih Bandara ---</option>
+        <option value="DPS">Denpasar(DPS)</option>
+        <option value="JOG">Yogyakarta(JOG)</option>
+
+        <label for="tanggal_berangkat">Tanggal Keberangkatan</label><br>
+        <input type="date" id="tanggal_berangkat" name="tangaal_berangkat" required><br><br>
+
+        <label for="tanggal_pulang">Tanggal Kepulangan (opsional)</label><br>
+        <input type="date" id="tanggal_pulang" name="tanggal_pulang"><br><br>
+
+        <label for="jumlah_penumpang">Jumlah Penumpang</label><br>
+        <select id="jumlah_penumpang" name="jumlah_penumpang"></select>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        </body>
+
+        <label>Kelas Penerbangan</label><br>
+        <input type="radio" id="ekonomi" name="kelas_penerbangan" value="ekonomi">
+        <label for="ekonomi">Ekonomi</label><br>
+        <input type="radio" id="bisnis" name="kelas_penerbangan" value="bisnis">
+        <label for="bisnis">Bisnis</label><br><br>
+
+
+        <h3>Metode Pembayaran</h3>
+
+        <label>Pilih Metode Pembayaran</label><br>
+        <input type="radio" id="kart_kredit" name="metode_pembayaran" value="kart_kredit">
+        <label for="kart_kredit">Kartu Kredit</label><br>
+        <input type="radio" id="transfer_bank" name="metode_pembayaran" value="tranfser_bank">
+        <label for="transer_bank">Transfer Bank</label><br>
+        <input type="radio" id="e-wallet, gopay, ovo, dll" name="metode_pembayaran" value="e-wallet, gopay, ovo, dll">
+        <label for="e-wallet">E- Walle, (GoPay,) OVO, DLL</label><br><br>
+
+
+        <input type="submit" value="Pesan Sekarang">
+        </html>
+
+        </body>
+        </html>
